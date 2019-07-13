@@ -29,7 +29,7 @@ inline void operator delete(void *pVoid, LPCSTR strFileName, INT iLine)
 Main::Main()
 {
 	//ネットワーク基本設定
-	m_networkFlag = false;
+	m_networkFlag = true;
 	if (m_networkFlag) {
 		m_sock.create(10002, SOCK_DGRAM);
 		m_sock.setSockOpt(SO_BROADCAST, true);
