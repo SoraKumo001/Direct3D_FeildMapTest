@@ -1,0 +1,6 @@
+/lib/
+/Work/
+.vs/
+*.iobj
+*.ipdb
+*.pdb

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\hlsl\PS_BASE_BUMP.hlsl" />
+    <FxCompile Include="..\..\hlsl\PS_FIELD.hlsl" />
+    <FxCompile Include="..\..\hlsl\PS_FIELD_W.hlsl" />
+    <FxCompile Include="..\..\hlsl\PS_FLAT.hlsl" />
+    <FxCompile Include="..\..\hlsl\PS_FLAT2.hlsl" />
+    <FxCompile Include="..\..\hlsl\PS_SDRAW.hlsl" />
+    <FxCompile Include="..\..\hlsl\PS_SHADOW.hlsl" />
+    <FxCompile Include="..\..\hlsl\PS_TEXTURE.hlsl" />
+    <FxCompile Include="..\..\hlsl\PS_VCOLOR.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_BASE.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_BASE_BUMP.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_BASE_NL.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_BASE_SHADOW.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_BILLBOARD.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_TEXTURE3D.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_VECTOR2.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_EFFECT.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_FIELD.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_FIELD_W.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_FLAT.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_SDRAW.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_SKIN4.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_SKIN4_SHADOW.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_SPRITE3D.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_TEXTURE.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_TEXTURE2.hlsl" />
+    <FxCompile Include="..\..\hlsl\VS_VECTOR.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LibSrc\afl3DBase.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibSrc\afl3DField.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibSrc\afl3DObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibSrc\afl3DWorld.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibSrc\aflD3D11.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibSrc\aflD3DMedia.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibSrc\aflD3DUnit.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibSrc\aflDShow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LibSrc\aflDSound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\hlsl\default.hlsli" />
+    <ClInclude Include="..\..\include\afl3DBase.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\afl3DField.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\afl3DWorld.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\aflD3D11.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\aflD3DMedia.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\aflD3DUnit.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
